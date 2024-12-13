@@ -27,7 +27,11 @@ Remove: `uv remove pytest --group dev`
 
 Sync the packages: `uv sync`
 
-Sync the packages without a specific group: `uv sync --no-group dev` 
+Important: sync the packages without a specific group: `uv sync --no-group dev`
+
+Important: run without a specific group: `uv run --no-group dev -- uvicorn --host $HOST --port $PORT app.main:app`
+
+Tree: `uv tree`
 
 ## Tool management
 
